@@ -1,0 +1,60 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+  font-weight: bold;
+}
+li, a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li, a:hover {
+  background-color: #333;
+}
+body {
+  background: rgb(0,195,255);
+background: -moz-linear-gradient(-45deg,  rgb(0,195,255) 0%, rgb(255,255,255) 100%, rgb(255,255,255) 100%, rgb(201,201,201) 100%, rgb(255,255,255) 100%);
+background: -webkit-linear-gradient(-45deg,  rgb(0,195,255) 0%,rgb(255,255,255) 100%,rgb(255,255,255) 100%,rgb(201,201,201) 100%,rgb(255,255,255) 100%);
+background: linear-gradient(135deg,  rgb(0,195,255) 0%,rgb(255,255,255) 100%,rgb(255,255,255) 100%,rgb(201,201,201) 100%,rgb(255,255,255) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c3ff', endColorstr='#ffffff',GradientType=1 );
+}
+.slider-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 98%;
+  height: 800px;
+}
+.image {
+  width : 15%;
+  height: 250px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+.p-text {
+  column-fill: balance;
+  column-rule: 2px solid black;
+  column-count: 4;
+  text-align: justify;
+  margin-top: 20px;
+  height : 30%;
+}
+.footer {
+  clear: both;
+  position: relative;
+  height: 100px;
+  background: black;
+  color: white;
+  text-align: center;
+}
